@@ -1,0 +1,96 @@
+*{
+padding: 0%;
+margin: 0%;    
+box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+.containerone{
+    padding: auto;
+    flex-wrap: wrap;
+}
+.containertwo{
+    width: 350px;
+}
+.containertwosub1{
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+.instapic{
+    padding: 20px;
+    margin-left: 60px;
+}
+.inputandlog{
+    display: block;
+    width: auto;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+button{
+    width: 250px;
+    padding: 7px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: aliceblue;
+    background-color:rgb(76,181,249);
+    border:1px solid rgb(76,181,249);
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+    color: rgb(100, 98, 98);
+    font-size: small;
+}
+.fblogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(56,81,133);
+}
+.fbimg{
+    border-radius: 10px;
+}
+.fpassword{
+    text-align: center;
+    padding: 20px;
+    color: rgb(56,81,133);
+}
+.containertwosub2{
+    margin-top:10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+a{
+    text-decoration: none;
+    color:rgb(54, 125, 173);
+}
+.getapp{
+    text-align: center;
+    padding: 20px;
+}
+.googledown{
+    margin: 20px;
+    align-items: center;
+}
+.lastimg{
+ padding: 5px;
+ margin-left: 15px;
+}
+::placeholder{
+    font-size: smaller;
+    color: lightgray;
+}
